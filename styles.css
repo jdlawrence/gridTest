@@ -1,3 +1,23 @@
 .container {
   color: green;
+  padding: 10px;
+}
+
+[class*='col-'] {
+  border: 1px solid blue;
+  float: left;
+}
+
+.col-1-4 {
+  width: 24.8%;
+}
+
+.container {
+  border: 1px solid red;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
